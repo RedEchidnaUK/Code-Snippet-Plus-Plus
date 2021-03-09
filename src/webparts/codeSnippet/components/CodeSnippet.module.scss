@@ -1,0 +1,17 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+@import '~codemirror/lib/codemirror.css';
+@import '~codemirror/theme/monokai.css';
+@import '~codemirror/theme/base16-light.css';
+
+.codeSnip {
+  .commandBarHide{
+    display: none;
+  }
+
+  //override the size of the CodeMirror height. Note: globally defined so affects ALL CodeMirror web parts on the page.
+  //This is the same as the MS Code Snippet web part.
+  :global div.CodeMirror {
+    height: auto;
+  }
+}
+

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "code-snippet-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/codeSnippet/CodeSnippetWebPart.js",
+          "manifest": "./src/webparts/codeSnippet/CodeSnippetWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CodeSnippetWebPartStrings": "lib/webparts/codeSnippet/loc/{locale}.js"
+  }
+}
