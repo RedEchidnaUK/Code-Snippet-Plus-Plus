@@ -4,9 +4,10 @@
    * Chrome browser: https://aka.ms/spfx-debugger-extensions
    */
   "version": "0.2.0",
-  "configurations": [{
-      "name": "Local workbench",
-      "type": "chrome",
+  "configurations": [
+    {
+      "name": "SPFx Edge",
+      "type": "edge",
       "request": "launch",
       "url": "https://localhost:4321/temp/workbench.html",
       "webRoot": "${workspaceRoot}",
@@ -16,10 +17,7 @@
         "webpack:///../../../src/*": "${webRoot}/src/*",
         "webpack:///../../../../src/*": "${webRoot}/src/*",
         "webpack:///../../../../../src/*": "${webRoot}/src/*"
-      },
-      "runtimeArgs": [
-        "--remote-debugging-port=9222"
-      ]
+      }
     },
     {
       "name": "Hosted workbench",

@@ -1,20 +1,20 @@
 {
-  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
-  "solution": {
-    "name": "code-snippet-plus-plus-client-side-solution",
-    "id": "4ed393f6-8c8f-42a3-8603-45c8e4bafeaa",
-    "version": "1.0.0.0",
-    "includeClientSideAssets": true,
-    "isDomainIsolated": false,
-    "developer": {
-      "name": "",
-      "websiteUrl": "",
-      "privacyUrl": "",
-      "termsOfUseUrl": "",
-      "mpnId": ""
+    "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+    "solution": {
+        "name": "code-snippet-plus-plus-client-side-solution",
+        "id": "4ed393f6-8c8f-42a3-8603-45c8e4bafeaa",
+        "version": "0.0.1.0",
+        "includeClientSideAssets": true,
+        "isDomainIsolated": false,
+        "developer": {
+            "name": "Red Echidna UK",
+            "websiteUrl": "https://github.com/RedEchidnaUK/Code-Snippet-Plus-Plus",
+            "privacyUrl": "https://github.com/RedEchidnaUK/Code-Snippet-Plus-Plus",
+            "termsOfUseUrl": "https://github.com/RedEchidnaUK/Code-Snippet-Plus-Plus",
+            "mpnId": ""
+        }
+    },
+    "paths": {
+        "zippedPackage": "solution/code-snippet-plus-plus.sppkg"
     }
-  },
-  "paths": {
-    "zippedPackage": "solution/code-snippet-plus-plus.sppkg"
-  }
 }

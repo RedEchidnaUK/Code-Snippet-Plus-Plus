@@ -375,13 +375,13 @@ export default class CodeSnip extends React.Component<ICodeSnippetProps, ICodeSn
 
     //update all properties
     if (menu == "lines") {
-      set(this.props.snippingProps.linesMenu, "linesText", text);
-      set(this.props.snippingProps.themeMenu, "linesIcon", iconName);
+      set(this.props.snippingProps.linesMenu, "text", text);
+      set(this.props.snippingProps.linesMenu, "icon", iconName);
       set(this.props.snippingProps, "lines", (optionValue == "numberedLinesItem") ? true : false);
     }
     else {
-      set(this.props.snippingProps.themeMenu, "themeText", text);
-      set(this.props.snippingProps.themeMenu, "themeIcon", iconName);
+      set(this.props.snippingProps.themeMenu, "text", text);
+      set(this.props.snippingProps.themeMenu, "icon", iconName);
       set(this.props.snippingProps, "theme", optionValue);
     }
   }
