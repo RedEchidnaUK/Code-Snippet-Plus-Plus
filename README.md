@@ -2,7 +2,7 @@
 
 ## Summary
 
-This web part extends the available choice of coding languages in the original 'Code Snippet' webpart from Mircosoft.
+This web part extends the available choice of coding languages in the original 'Code Snippet' webpart from Microsoft.
 
 It is designed to look just like the original so it is familiar, but has a lot more languages and the option to highlight matched brackets. 
 

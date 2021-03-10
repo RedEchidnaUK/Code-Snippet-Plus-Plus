@@ -1,7 +1,7 @@
 define([], function() {
   return {
-    "PropertyPaneDescription": "Description",
-    "BasicGroupName": "Group Name",
-    "DescriptionFieldLabel": "Description Field"
+    "PropertyPaneDescription": "Pick your language, theme and show off your code.",
+    "PropertyPaneLineWrap": "Line Wrap",
+    "PropertyPaneMatchBrackets": "Match Brackets"
   }
 });
