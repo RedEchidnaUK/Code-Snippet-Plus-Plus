@@ -3,8 +3,9 @@
     "solution": {
         "name": "Code Snippet Plus Plus",
         "id": "4ed393f6-8c8f-42a3-8603-45c8e4bafeaa",
-        "version": "0.0.1.0",
+        "version": "1.1.0.0",
         "includeClientSideAssets": true,
+        "skipFeatureDeployment": true,
         "isDomainIsolated": false,
         "developer": {
             "name": "Red Echidna UK",
@@ -12,9 +13,28 @@
             "privacyUrl": "https://github.com/RedEchidnaUK/Code-Snippet-Plus-Plus",
             "termsOfUseUrl": "https://github.com/RedEchidnaUK/Code-Snippet-Plus-Plus",
             "mpnId": ""
-        }
+        },
+        "metadata": {
+            "shortDescription": {
+                "default": "code-snippet-plus-plus description"
+            },
+            "longDescription": {
+                "default": "code-snippet-plus-plus description"
+            },
+            "screenshotPaths": [],
+            "videoUrl": "",
+            "categories": []
+        },
+        "features": [
+            {
+                "title": "code-snippet-plus-plus Feature",
+                "description": "The feature that activates elements of the code-snippet-plus-plus solution.",
+                "id": "bed467df-3711-4076-b2bc-288fa60d43e1",
+                "version": "1.1.0.0"
+            }
+        ]
     },
     "paths": {
-        "zippedPackage": "solution/code-snippet-plus-plus.sppkg"
+        "zippedPackage": "../package/code-snippet-plus-plus.sppkg"
     }
 }

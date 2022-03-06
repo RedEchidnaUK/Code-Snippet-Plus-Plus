@@ -9,6 +9,9 @@ import { BaseClientSideWebPart, } from '@microsoft/sp-webpart-base';
 import * as strings from 'CodeSnippetWebPartStrings';
 import CodeSnip from './components/CodeSnippet';
 import { ICodeSnippetProps } from './components/ICodeSnippetProps';
+require('../../../node_modules/codemirror/lib/codemirror.css');
+require('../../../node_modules/codemirror/theme/monokai.css');
+require('../../../node_modules/codemirror/theme/base16-light.css');
 
 export interface ICodeSnippetWebPartProps {
   description: string;
