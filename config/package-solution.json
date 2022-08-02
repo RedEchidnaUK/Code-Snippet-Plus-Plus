@@ -3,7 +3,7 @@
     "solution": {
         "name": "Code Snippet Plus Plus",
         "id": "4ed393f6-8c8f-42a3-8603-45c8e4bafeaa",
-        "version": "1.1.0.0",
+        "version": "1.1.1.0",
         "includeClientSideAssets": true,
         "skipFeatureDeployment": true,
         "isDomainIsolated": false,

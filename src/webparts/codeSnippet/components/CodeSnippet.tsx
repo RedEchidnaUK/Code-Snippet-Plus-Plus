@@ -410,7 +410,7 @@ export default class CodeSnip extends React.Component<ICodeSnippetProps, ICodeSn
       mode: mode,
       theme: this.props.snippingProps.theme,
       lineWrapping: this.props.snippingProps.lineWrapToggle,
-      readOnly: !this.props.isEditMode ? "nocursor" : false,
+      readOnly: !this.props.isEditMode,
       matchBrackets: this.props.snippingProps.matchBracketsToggle
     };
     return options;
